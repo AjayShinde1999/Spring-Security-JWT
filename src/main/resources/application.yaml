@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: jwt-authentication
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jwt-authentication-db
+    username: postgres
+    password: Gulbarga@321
+  jpa:
+    hibernate:
+      ddl-auto: update
